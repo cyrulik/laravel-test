@@ -2,5 +2,7 @@
 /node_modules
 .env
 .idea
+/public/build
 /public/css
+/public/js
 composer.lock

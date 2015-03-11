@@ -13,7 +13,17 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.less([
-        'app.less',
-        'editor/raptor-front-end.less'
-    ]);
+            'editor/raptor-front-end.less',
+            'editor/example.less'
+        ])
+        .stylesIn('public/css')
+        .scripts([
+            'editor/raptor.js',
+            'library/jquery.js',
+            'library/jquery-ui.js'
+        ])
+        .version([
+            'css/all.css',
+            'js/all.js'
+        ]);
 });

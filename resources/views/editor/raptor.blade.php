@@ -2,13 +2,9 @@
 <html>
 <head>
     <title>Raptor Editor Example</title>
-    <link type="text/css" rel="stylesheet" href="example.css" />
-    {!! HTML::style('css/raptor-front-end.css') !!}
 
-    <link type="text/css" rel="stylesheet" href="libraries/theme.css" />
-    <script type="text/javascript" src="libraries/jquery.js"></script>
-    <script type="text/javascript" src="libraries/jquery-ui.js"></script>
-    <script type="text/javascript" src="../raptor.js"></script>
+    <link type="text/css" rel="stylesheet" href="{{ elixir("css/all.css") }}" />
+    <script type="text/javascript" src="{{ elixir("js/all.js") }}"></script>
     <script type="text/javascript">
         jQuery(function($) {
             $('.editable').raptor({
