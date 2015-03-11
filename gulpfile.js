@@ -18,9 +18,9 @@ elixir(function(mix) {
         ])
         .stylesIn('public/css')
         .scripts([
-            'editor/raptor.js',
             'library/jquery.js',
-            'library/jquery-ui.js'
+            'library/jquery-ui.js',
+            'editor/raptor.js'
         ])
         .version([
             'css/all.css',
