@@ -1,0 +1,6 @@
+suites:
+    main:
+        namespace: VictoriaPlum
+        psr4_prefix: VictoriaPlum
+        src_path: app
+        spec_prefix: spec
