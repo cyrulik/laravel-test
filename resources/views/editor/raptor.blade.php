@@ -3,7 +3,7 @@
 <head>
     <title>Raptor Editor Example</title>
     <link type="text/css" rel="stylesheet" href="example.css" />
-    <link type="text/css" rel="stylesheet" href="../raptor-front-end.css" />
+    {!! HTML::style('css/raptor-front-end.css') !!}
 
     <link type="text/css" rel="stylesheet" href="libraries/theme.css" />
     <script type="text/javascript" src="libraries/jquery.js"></script>
