@@ -144,6 +144,8 @@ return [
 		'VictoriaPlum\Providers\ConfigServiceProvider',
 		'VictoriaPlum\Providers\EventServiceProvider',
 		'VictoriaPlum\Providers\RouteServiceProvider',
+
+		'TwigBridge\ServiceProvider',
 	],
 
 	/*
@@ -191,6 +193,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		'Twig'      => 'TwigBridge\Facade\Twig',
 	],
 
 ];
