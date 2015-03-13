@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'VictoriaPlum\Providers\AppServiceProvider',
-		'VictoriaPlum\Providers\BusServiceProvider',
-		'VictoriaPlum\Providers\ConfigServiceProvider',
-		'VictoriaPlum\Providers\EventServiceProvider',
-		'VictoriaPlum\Providers\RouteServiceProvider',
+		'LaravelTest\Providers\AppServiceProvider',
+		'LaravelTest\Providers\BusServiceProvider',
+		'LaravelTest\Providers\ConfigServiceProvider',
+		'LaravelTest\Providers\EventServiceProvider',
+		'LaravelTest\Providers\RouteServiceProvider',
 
 		'TwigBridge\ServiceProvider',
 	],

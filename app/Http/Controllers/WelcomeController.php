@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Http\Controllers;
+<?php namespace LaravelTest\Http\Controllers;
 
 use Illuminate\Foundation\Inspiring;
 

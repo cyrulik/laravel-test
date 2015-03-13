@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Commands;
+<?php namespace LaravelTest\Commands;
 
 abstract class Command {
 

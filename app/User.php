@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum;
+<?php namespace LaravelTest;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

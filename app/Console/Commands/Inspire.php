@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Console\Commands;
+<?php namespace LaravelTest\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Exceptions;
+<?php namespace LaravelTest\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

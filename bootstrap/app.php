@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
-	'VictoriaPlum\Http\Kernel'
+	'LaravelTest\Http\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
-	'VictoriaPlum\Console\Kernel'
+	'LaravelTest\Console\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
-	'VictoriaPlum\Exceptions\Handler'
+	'LaravelTest\Exceptions\Handler'
 );
 
 /*

@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Http;
+<?php namespace LaravelTest\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'VictoriaPlum\Http\Middleware\VerifyCsrfToken',
+		'LaravelTest\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'VictoriaPlum\Http\Middleware\Authenticate',
+		'auth' => 'LaravelTest\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'VictoriaPlum\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'LaravelTest\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Http\Middleware;
+<?php namespace LaravelTest\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

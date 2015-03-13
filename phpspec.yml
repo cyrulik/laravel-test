@@ -1,6 +1,6 @@
 suites:
     main:
-        namespace: VictoriaPlum
-        psr4_prefix: VictoriaPlum
+        namespace: LaravelTest
+        psr4_prefix: LaravelTest
         src_path: app
         spec_prefix: spec

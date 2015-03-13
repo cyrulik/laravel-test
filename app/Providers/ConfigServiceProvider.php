@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Providers;
+<?php namespace LaravelTest\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,4 +1,4 @@
-<?php namespace VictoriaPlum\Events;
+<?php namespace LaravelTest\Events;
 
 abstract class Event {
 

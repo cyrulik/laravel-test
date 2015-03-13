@@ -1,6 +1,6 @@
-<?php namespace VictoriaPlum\Http\Controllers;
+<?php namespace LaravelTest\Http\Controllers;
 
-use VictoriaPlum\Http\Requests;
+use LaravelTest\Http\Requests;
 
 class HomeController extends Controller {
 
