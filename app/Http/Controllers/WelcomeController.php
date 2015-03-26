@@ -1,6 +1,6 @@
 <?php namespace LaravelTest\Http\Controllers;
 
-use Illuminate\Foundation\Inspiring;
+use Auth;
 
 class WelcomeController extends Controller {
 
@@ -30,7 +30,10 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome', ['quote' => Inspiring::quote()]);
+		if (Auth::check())
+			return 'Authenticated \o/';
+
+		return 'Hi guest, ' . link_to('/login_provider', 'Login with Github');
 	}
 
 }

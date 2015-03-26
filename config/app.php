@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://laravel-test.dev',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -146,6 +146,8 @@ return [
 		'LaravelTest\Providers\RouteServiceProvider',
 
 		'TwigBridge\ServiceProvider',
+		'Laravel\Socialite\SocialiteServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -195,6 +197,9 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 
 		'Twig'      => 'TwigBridge\Facade\Twig',
+		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
+		'Form'      => 'Illuminate\Html\FormFacade',
+		'HTML'      => 'Illuminate\Html\HtmlFacade',
 	],
 
 ];

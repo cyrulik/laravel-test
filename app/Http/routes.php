@@ -14,3 +14,6 @@
 Route::get('/',       'WelcomeController@index');
 Route::get('/home',   'HomeController@index');
 Route::get('/raptor', 'EditorController@index');
+
+Route::get('/login_provider', 'AuthController@redirectToProvider');
+Route::get('/login',          'AuthController@handleProviderCallback');
